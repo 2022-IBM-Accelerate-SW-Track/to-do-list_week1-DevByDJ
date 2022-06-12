@@ -32,7 +32,7 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <h1 className='text'><center>Todo's </center></h1>
+        <h1 className='text'><center><b><u>To Do List:</u></b></center></h1>
         <center className='text'><Todos todos={this.state.todos} /></center>
         <center className='text'><AddTodo addTodo={this.addTodo} /></center>
       </div>
